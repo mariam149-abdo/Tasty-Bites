@@ -155,7 +155,6 @@ header .content p{
   height:100%;
   display:flex;
   justify-content: center;
-  background:url("offer-background.jpg")center center/cover fixed;
 }
 #offers .card1, .card2 ,.card3{
   border: 3px solid rgba(0, 0, 0, 0.1);
@@ -180,7 +179,6 @@ header .content p{
   display:flex;
   justify-content: center;
   align-items: center;
-  padding-right:50px;
   text-align: center;
   color:#000;
 }
