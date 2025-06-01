@@ -275,6 +275,7 @@ header .content p{
   margin-left:20px;
 }
 #reviews .cards .card{
+  padding:5px;
   margin:10px;
   width:350px;
   height:200px;
