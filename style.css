@@ -63,6 +63,7 @@ position: relative;
   justify-content:space-between;
   align-items:center;
   height:70px;
+  width:100%;
 } 
 #navbar h2{
   padding-top:10px;
@@ -380,6 +381,13 @@ header .content p{
   color:var(--white-color);
 }
 @media (max-width: 1300px) {
+  #navbar h2{  
+  white-space:nowrap;  
+  margin-left:20px;
+  }
+  #navbar nav ul{
+  margin-right:0;
+  }
   header .content{
     background-size:cover;
   }
@@ -531,12 +539,12 @@ header .content p{
     margin-right:25px;
     padding:0;
    }
- #about .btn-secondary{
+#about .btn-secondary {
   display: block;
   margin: 20px auto;
-  text-align: center;
   width: fit-content;
-} 
+}
+
   #offers{
     height:100%;
     width:100%;
