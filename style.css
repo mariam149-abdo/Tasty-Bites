@@ -511,24 +511,13 @@ header .content p{
   #about img{
     display:none;
   }
-  /* .about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  } */
+  .about-content > div {
+    text-align: center;
+  }
   #about .about-content p{
     margin-right:25px;
     padding:0;
    }
-.about-content > div {
-  text-align: center;
-}
-  /* #about .btn-secondary {
-    display: block;
-    margin: 20px auto;
-    width: fit-content;
-  } */
-
   #offers{
     height:100%;
     width:100%;
