@@ -268,29 +268,18 @@ header .content p{
   padding:10px;
   height:100%;
   width:100%;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
   background:var(--secondary-color);
 }
 #reviews .cards {
-  display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  align-items:center;
-}
-#reviews .cards-left,.cards-right{
-  display:flex;
-  flex-direction:row;
-  flex-wrap:nowrap;
-  align-items:center;
-  margin-left:20px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap:30px;
+  max-width: 1200px;
+  margin:auto;
 }
 #reviews .cards .card{
   padding:5px;
   margin:10px;
-  width:350px;
-  height:200px;
   border:3px solid rgba(0, 0, 0, 0.2);
   text-align:center;
   transition:transform 0.6s;
@@ -441,19 +430,6 @@ header .content p{
   .card3 h3{
     padding-left:20px;
   }
-#reviews .cards {
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  align-items:center;
-}
-#reviews .cards-left,.cards-right{
-  display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  align-items:center;
-  margin-left:20px;
-}
   #contact{
     padding:0 10px 0 0;
   }
@@ -500,11 +476,17 @@ header .content p{
   }
 }
 @media (max-width: 600px) {
+  html,body{
+    overflow: hidden;
+  }
   body{
     padding:0;
     height:100%;
     width:100%;
     margin:0;
+  }
+  header .content{
+    background-size:cover;
   }
   #navbar nav{
     display:none;
@@ -529,21 +511,23 @@ header .content p{
   #about img{
     display:none;
   }
-  #about .about-content{
-    display:flex;
+  /* .about-content {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+    align-items: center; 
+  } */
   #about .about-content p{
     margin-right:25px;
     padding:0;
    }
-#about .btn-secondary {
-  display: block;
-  margin: 20px auto;
-  width: fit-content;
+.about-content > div {
+  text-align: center;
 }
+  /* #about .btn-secondary {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+  } */
 
   #offers{
     height:100%;
@@ -569,22 +553,6 @@ header .content p{
   .card2 h3,
   .card3 h3{
     padding-left:20px;
-}
-#reviews{
-  padding:5px;
-}
-#reviews .cards {
-  display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  align-items:center;
-}
-#reviews .cards-left,.cards-right{
-  display:flex;
-  flex-direction:column;
-  flex-wrap:nowrap;
-  align-items:center;
-  margin-right:20px;
 }
 #contact{
   padding-right:10px;
