@@ -42,7 +42,6 @@ It's ideal for restaurant websites, food portfolios, or front-end development pr
 --------------------------------------------------
 - HTML5
 - CSS3
-- JavaScript
 --------------------------------------------------
 ▶️ How to Use:
 --------------------------------------------------
