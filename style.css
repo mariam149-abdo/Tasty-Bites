@@ -435,23 +435,17 @@ header .content p{
   }
   #about{
     height:100%;
-    padding-left:30px;
-  }
-  #about p{
-    font-size:17px;
-    font-weight:600;
-    margin-left:5px;
-    text-align:center;
   }
   #about img{
     display:none;
   }
   #about .about-content p{
-    margin-right:25px;
-    padding:0;
-   }
-  #about .btn-secondary{
-    margin:30px;
+    margin:auto;
+    padding:0 10px;
+  }
+   #about .about-content{
+    margin:auto;
+    padding:0 10px;
   }
   #offers{
     height:100%;
@@ -525,9 +519,6 @@ header .content p{
   }
 }
 @media (max-width: 600px) {
-  html,body{
-    overflow: hidden;
-  }
   body{
     padding:0;
     height:100%;
@@ -547,26 +538,20 @@ header .content p{
     font-size:14px;
     text-align:center;
   }
-  #about{
-    height:100%;
-    padding-left:30px;
-  }
   #about p{
     font-size:17px;
     font-weight:600;
-    margin-left:5px;
     text-align:center;
   }
   #about img{
     display:none;
   }
   .about-content > div {
-    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  #about .about-content p{
-    margin-right:25px;
-    padding:0;
-   }
   #offers{
     height:100%;
     width:100%;
