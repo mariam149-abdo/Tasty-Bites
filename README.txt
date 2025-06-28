@@ -1,36 +1,21 @@
 ==============================================
- Restaurant Website - HTML & CSS
+ Restaurant Website 
 ==============================================
 
-📌 Project Name:
+Project Name:
 Tasty Bites - Restaurant Page
 
-👩‍💻 Author:
+Author:
 Mariam AbdlelhaK
-
-🗓️ Last Updated:
-May 2025
-
-🔖 Version:
-1.0
-
 --------------------------------------------------
-📝 Description:
+ Description:
 --------------------------------------------------
 This is a clean and responsive restaurant menu webpage that displays pasta dishes with names, detailed descriptions, and discounted prices.
 
-It's ideal for restaurant websites, food portfolios, or front-end development practice. The project is built using pure HTML and CSS.
+It's ideal for restaurant websites, food portfolios, or front-end development practice.
 
 --------------------------------------------------
-📂 Folder Structure:
---------------------------------------------------
-- index.html       → Main HTML file (menu layout)
-- style.css        → CSS file for styling
-- images/          → Folder for dish images
-- README.txt       → Project instructions
-
---------------------------------------------------
-💡 Features:
+Features:
 --------------------------------------------------
 - Clean and modern layout
 - Fully responsive design
@@ -38,12 +23,13 @@ It's ideal for restaurant websites, food portfolios, or front-end development pr
 - Easy to edit and reuse
 
 --------------------------------------------------
-🛠️ Technologies Used:
+Technologies Used:
 --------------------------------------------------
 - HTML5
 - CSS3
+-JAVASCRIPT
 --------------------------------------------------
-▶️ How to Use:
+How to Use:
 --------------------------------------------------
 1. Download and extract the ZIP file.
 2. Open `index.html` in any browser.
